@@ -1,0 +1,10 @@
+.btn, .btn:link, .btn:visited {
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-white, .btn-white:link, .btn-white:visited {
+    color: var(--white);
+    border: 1px solid var(--white);
+}

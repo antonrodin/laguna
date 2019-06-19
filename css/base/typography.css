@@ -1,0 +1,44 @@
+body {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 1.6rem;
+    text-decoration: underline;
+    font-weight: 800;
+    color: var(--main-color);
+}
+
+p {
+    font-size: 1.6rem;
+    color: var(--font-color);
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tl {
+    text-align: left;
+}
+
+.b {
+    font-weight: 800;
+}
+
+.i {
+    font-style: italic;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.cap {
+    text-transform: capitalize;
+}
