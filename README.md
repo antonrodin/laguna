@@ -9,3 +9,6 @@ La practica final del pre-curso de bootcamp de Neoland...
 * BASSCSS Margins & Paddings
 * Basic flex grid
 * Variables propias de CSS
+* y probablemente alguna otra historia...
+
+Ningún derecho reservado... Aunque las fotos son mias del paseo por la Laguna del Campillo.

@@ -1,0 +1,38 @@
+.footer {
+    background-color: var(--main-color);
+    min-height: 20rem;
+}
+
+.footer__gotop, .footer__gotop:link, .footer__gotop:visited {
+    display: block;
+    background-color: red;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+    transform: rotate(90deg);
+    font-size: 2rem;
+    color: var(--grey-5);
+}
+
+.footer__social {
+    margin: 2rem auto;
+    max-width: var(--width-desktop);
+}
+
+.footer__social-item {
+    border-radius: 50%;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    background-color: var(--grey-5);
+}
+
+.footer__text {
+    margin: 2rem auto;
+    max-width: var(--width-desktop);
+}
+
+.footer__link, .footer__link:link, .footer__link:visited {
+    font-style: italic;
+    font-weight: bold;
+    color: var(--white);
+}

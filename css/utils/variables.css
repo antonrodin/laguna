@@ -1,11 +1,21 @@
 :root {
 
+    /* Algunos colores */
     --main-color: #000;
-    --font-color: #333;
+    --font-color: #888;
 
-    --grey:      #777; 
+    --grey:      #777;
+    --grey-2:    #a2a2a2;
+    --grey-5:    #555; 
     --white:     #fff;
+    --black:     #000;
+    --red:       #ba0c0c;
 
+    /* Anchura maxima del contenido */
+    --width-desktop:    80rem; 
+    --width-mobile:     40rem;
+
+    /* Medidas para Margins & PAddings */
     --space-1: 1rem;
     --space-2: 2rem;
     --space-3: 3rem;

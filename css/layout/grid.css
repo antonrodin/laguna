@@ -26,3 +26,7 @@
 .jc-space-between {
     justify-content: space-between;
 }
+
+.jc-center {
+    justify-content: center;
+}

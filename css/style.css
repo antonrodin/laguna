@@ -13,9 +13,12 @@ BASCSS y algo parecido a Tachions CSS, Para el grid se usa flex (layout/grid.css
 /* Layout */
 @import url('layout/grid.css');
 @import url('layout/header.css');
+@import url('layout/navigation.css');
+@import url('layout/footer.css');
 
 /* Components */
 @import url('components/buttons.css');
+@import url('components/article.css');
 
 /* Utils */
 @import url('utils/variables.css');

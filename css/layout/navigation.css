@@ -1,0 +1,20 @@
+/**
+*   Navigation
+*/
+.nav {
+
+}
+
+.nav__link, .nav__link:link, .nav__link:visited {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--grey-2);
+}
+
+.nav__link:hover, .nav__link:active {
+    color: var(--white);
+}
+
+.nav__link-active {
+    color: var(--white) !important;
+}
