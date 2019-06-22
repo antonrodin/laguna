@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,38 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
-    <header class="header">
-        <div class="container">
-            <div class="flex aic jc-space-between">
-                <a class="m3" href="#">
-                    <img class="header__logo" src="img/header-logo.png" alt="Laguna del Campillo Logo">
-                </a>
-                <nav class="nav m3">
-                    <a href="#home" class="nav__link nav__link-active px2 up">Portada</a>
-                    <a href="#descubre" class="nav__link px2 up">Descubre</a>
-                    <a href="#actividades" class="nav__link px2 up">Actividades</a>
-                    <a href="#contacto" class="nav__link px2 up">Contacto</a>
-                </nav>
+
+    <div class="navigation">
+        <div class="navigation__container">
+            <a class="navigation__logo" href="#">
+                <img src="img/header-logo.png" alt="Laguna del Campillo Logo">
+            </a>
+
+            <div class="navigation__mobile">
+                <label for="nav-toggle" class="navigation__label up px2 b">Menu</label>
             </div>
 
+            <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+
+            <div class="navigation__menu">
+                <nav class="nav">
+                    <a href="#home" class="nav__link nav__link-active up">Portada</a>
+                    <a href="#descubre" class="nav__link up">Descubre</a>
+                    <a href="#actividades" class="nav__link up">Actividades</a>
+                    <a href="#contacto" class="nav__link up">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="header">
+        <div class="container">
+
             <div class="welcome">
-                
+
                 <h1 class="welcome__title tc up">
                     <span class="welcome__title-secondary m1">Rivas-Vaciamadrid</span>
                     <span class="welcome__title-primary">Laguna del Campillo</span>
@@ -35,7 +50,7 @@
                 <div class="tc m4">
                     <a href="#descubre" class="btn btn-white">Descubre</a>
                 </div>
-                
+
             </div>
         </div>
     </header>
@@ -44,10 +59,16 @@
         <article class="article tc">
             <h1 class="article__title up">Descripción</h1>
             <hr class="article__line my2 mb4">
-        
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur dolor rem nulla eius culpa amet nihil fugiat dignissimos, ipsam similique sed reprehenderit illum iusto? Nihil reiciendis quidem quas porro.</p>
-            <p>Omnis nesciunt praesentium suscipit voluptatem at asperiores eos accusamus explicabo commodi, pariatur possimus aliquam atque molestias deserunt ullam ab neque impedit facere voluptates voluptate. Reprehenderit praesentium laboriosam culpa odit temporibus.</p>
-            <p>Minima, culpa repudiandae! Quos, molestiae sed. Quisquam exercitationem neque, vitae cum reiciendis maiores consectetur suscipit eveniet nostrum itaque, expedita est atque tempore fugit hic debitis voluptatem, dolor tempora. At, placeat?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tenetur dolor rem nulla eius culpa amet
+                nihil fugiat dignissimos, ipsam similique sed reprehenderit illum iusto? Nihil reiciendis quidem quas
+                porro.</p>
+            <p>Omnis nesciunt praesentium suscipit voluptatem at asperiores eos accusamus explicabo commodi, pariatur
+                possimus aliquam atque molestias deserunt ullam ab neque impedit facere voluptates voluptate.
+                Reprehenderit praesentium laboriosam culpa odit temporibus.</p>
+            <p>Minima, culpa repudiandae! Quos, molestiae sed. Quisquam exercitationem neque, vitae cum reiciendis
+                maiores consectetur suscipit eveniet nostrum itaque, expedita est atque tempore fugit hic debitis
+                voluptatem, dolor tempora. At, placeat?</p>
 
         </article>
     </section>
@@ -55,7 +76,7 @@
     <footer class="footer">
 
         <div class="clear inline-block"></div>
-        
+
         <p class="footer__text tc">
             <a href="#top" class="footer__gotop p4">&#10094;</a>
         </p>
@@ -68,10 +89,12 @@
             <a href="#" class="footer__social-item m1 p1">&#9954;</a>
         </div>
 
-        <p class="footer__text tc">Pagina web realizada por motivos academicos con <span class="red">&#10084;</span> por    <a class="footer__link" href="https://www.azr.es" title="Antón Zekeriev Rodin">A.Z.R.</a>. <br>
+        <p class="footer__text tc">Pagina web realizada por motivos academicos con <span class="red">&#10084;</span> por
+            <a class="footer__link" href="https://www.azr.es" title="Antón Zekeriev Rodin">A.Z.R.</a>. <br>
             Ningún derecho reservado...
         </p>
     </footer>
 
 </body>
+
 </html>

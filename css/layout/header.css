@@ -14,10 +14,6 @@
     background-position: top;
 }
 
-.header__logo {
-    width: 5rem;
-}
-
 .welcome {
     position: absolute;
     top: 50%;

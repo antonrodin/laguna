@@ -1,11 +1,45 @@
-/**
-*   Navigation
-*/
+/* Navigation */
+.navigation {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navigation__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation__logo, .navigation__menu, .navigation__mobile {
+    margin: 2rem;
+}
+
+.navigation__logo img {
+    width: 5rem;
+}
+
+.navigation__checkbox, .navigation__label, .navigation__mobile {
+    display: none;
+}
+
+/* Nav */
 .nav {
 
 }
 
-.nav__link, .nav__link:link, .nav__link:visited {
+.nav__list {
+    list-style: none;
+}
+
+.nav__item {
+    display: inline;
+}
+
+.nav__link:link, .nav__link:visited {
+    padding: 0 2rem;
     font-size: 1.2rem;
     text-decoration: none;
     color: var(--grey-2);
@@ -17,4 +51,65 @@
 
 .nav__link-active {
     color: var(--white) !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    /* Navigation */
+    .navigation__container {
+        flex-wrap: wrap;
+    }
+
+    .navigation {
+        background: var(--black);
+        position: relative;
+    }
+
+    .navigation__mobile {
+        margin: 2rem;
+        display: inline-block;
+    }
+
+    .navigation__menu {
+        display: none;
+        margin: 0;
+    }
+
+    .navigation__label {
+        text-align: center;
+        letter-spacing: 0.5rem;
+        font-size: 1.2rem;
+        color: var(--grey-2);
+        display: inline-block;
+    }
+
+    /* Nav */
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .nav__link:link, .nav__link:visited {
+        letter-spacing: .4rem;
+        font-weight: 300;
+        display: inline-block;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: var(--grey-2);
+    }
+
+    .nav__link:not(:last-child) {
+        border-bottom: 1px solid var(--grey-2);
+    }
+
+    /* Checkbox Hack */
+    /* Tiene que ser hijo, si no, no funciona */
+    .navigation__checkbox:checked ~ .navigation__menu { 
+        display: inline-block;
+        width: 100%;
+    }
+
 }
