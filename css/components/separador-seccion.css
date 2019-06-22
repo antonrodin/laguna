@@ -1,0 +1,9 @@
+.separador-seccion {
+    background-color: var(--main-color);
+}
+
+.separador-seccion__title {
+    font-weight: 300;
+    font-size: 3rem;
+    color: var(--white);
+}

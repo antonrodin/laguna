@@ -18,7 +18,7 @@
 }
 
 .navigation__logo img {
-    width: 5rem;
+    width: 7rem;
 }
 
 .navigation__checkbox, .navigation__label, .navigation__mobile {
@@ -53,7 +53,7 @@
     color: var(--white) !important;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 640px) {
     
     /* Navigation */
     .navigation__container {
@@ -66,8 +66,12 @@
     }
 
     .navigation__mobile {
-        margin: 2rem;
+        margin-right: 3rem;
         display: inline-block;
+    }
+    
+    .navigation__logo {
+        margin-left: 3rem;
     }
 
     .navigation__menu {
@@ -79,7 +83,7 @@
         text-align: center;
         letter-spacing: 0.5rem;
         font-size: 1.2rem;
-        color: var(--grey-2);
+        color: var(--white);
         display: inline-block;
     }
 

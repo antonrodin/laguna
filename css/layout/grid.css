@@ -11,6 +11,10 @@
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .aic {
     align-items: center;
 }
@@ -29,4 +33,14 @@
 
 .jc-center {
     justify-content: center;
+}
+
+.jc-start {
+    justify-content: start;
+}
+
+@media only screen and (max-width: 640px) {
+    .hidden-xs {
+        display: none;
+    }
 }
