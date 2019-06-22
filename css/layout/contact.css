@@ -1,0 +1,40 @@
+.contact {
+
+}
+
+.contact__form {
+    padding: 2rem;
+    width: 60%;
+}
+
+.contact__details {
+    padding: 2rem;
+    width: 40%;
+}
+
+.contact__subtitle {
+    font-size: var(--default-font-size);
+    color: var(--black);
+}
+
+.contact__list {
+    list-style: none;
+}
+
+.contact__list>li {
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+    font-size: var(--default-font-size);
+    color: var(--font-color);
+}
+
+@media only screen and (max-width: 640px) {
+    .contact__form {
+        width: 100%;
+    }
+    
+    .contact__details {
+        order: -1;
+        width: 100%;
+    }
+}

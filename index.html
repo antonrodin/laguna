@@ -38,26 +38,23 @@
 
 
     <header class="header">
-        <div class="container">
+        <div class="welcome">
 
-            <div class="welcome">
+            <h1 class="welcome__title tc up">
+                <span class="welcome__title-secondary m1">Rivas-Vaciamadrid</span>
+                <span class="welcome__title-primary">Laguna del Campillo</span>
+            </h1>
 
-                <h1 class="welcome__title tc up">
-                    <span class="welcome__title-secondary m1">Rivas-Vaciamadrid</span>
-                    <span class="welcome__title-primary">Laguna del Campillo</span>
-                </h1>
-
-                <div class="tc m4">
-                    <a href="#descubre" class="btn btn-white">Descubre</a>
-                </div>
-
+            <div class="tc m4">
+                <a href="#descubre" class="btn btn-white">Descubre</a>
             </div>
+
         </div>
     </header>
 
     <section id="descubre" class="about">
-        
-        <article class="article tc">
+
+        <article class="article container tc">
             <h1 class="article__title up">Descripción</h1>
             <hr class="separador my2 mb4">
 
@@ -73,7 +70,7 @@
 
         </article>
 
-        <article class="article tc">
+        <article class="article container tc">
 
             <h1 class="article__title up">Fauna</h1>
             <hr class="separador my2 mb4">
@@ -150,7 +147,11 @@
                         possimus aliquam atque molestias deserunt ullam ab neque.
                     </p>
                     <div class="tc my2">
-                        <a href="#" class="fauna__source">W</a>
+                        <a href="" class="fauna__source">
+                            <svg class="footer__icon">
+                                <use xlink:href="img/sprite.svg#icon-link"></use>
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -167,50 +168,116 @@
         </div>
 
         <div class="servicio__container">
-            
-                <div class="servicio__item">
 
-                        <div class="p4">
-                            <div class="actividad flex aic jc-center flex-wrap">
-                    
-                                <figure class="actividad__figure">
-                                        <img class="actividad__image" src="img/pesca.jpg" alt="Actividad">
-                                </figure>
-                                
-                                <div class="actividad__description">
-                                    <h3 class="actividad__title up">Pesca en la laguna</h3>
-                                    <p class="ml4 p1 hidden-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus quae alias, voluptas corrupti, sequi perspiciatis harum molestiae </p>
-                                    <p class="ml4 p1 hidden-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus quae alias, voluptas corrupti, sequi perspiciatis harum </p>
-                                </div>
-                    
-                            </div>
+            <div class="servicio__item container">
+
+                <div class="p4">
+                    <div class="actividad flex aic jc-center flex-wrap">
+
+                        <figure class="actividad__figure">
+                            <img class="actividad__image" src="img/pesca.jpg" alt="Actividad">
+                        </figure>
+
+                        <div class="actividad__description">
+                            <h3 class="actividad__title up">Pesca en la laguna</h3>
+                            <p class="ml4 p1 hidden-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Voluptatibus quae alias, voluptas corrupti, sequi perspiciatis harum molestiae </p>
+                            <p class="ml4 p1 hidden-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Voluptatibus quae alias, voluptas corrupti, sequi perspiciatis harum </p>
                         </div>
-        
+
+                    </div>
                 </div>
+
+            </div>
 
         </div>
 
         <div class="servicio__container servicio__container-grey">
-            
-                <div class="servicio__item">
 
-                        <div class="p4">
-                            <div class="actividad flex aic jc-center flex-wrap">
-                                
-                                <div class="actividad__description">
-                                    <h3 class="actividad__title actividad__title-left up">Pesca en la laguna</h3>
-                                    <p class="mr4 p1 hidden-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus quae alias, voluptas corrupti, sequi perspiciatis harum molestiae </p>
-                                    <p class="mr4 p1 hidden-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus quae alias, voluptas corrupti, sequi perspiciatis harum </p>
-                                </div>
+            <div class="servicio__item container">
 
-                                <figure class="actividad__figure">
-                                        <img class="actividad__image" src="img/pesca.jpg" alt="Actividad">
-                                </figure>
-                    
-                            </div>
+                <div class="p4">
+                    <div class="actividad flex aic jc-center flex-wrap">
+
+                        <div class="actividad__description">
+                            <h3 class="actividad__title actividad__title-left up">Tren de Arganda</h3>
+                            <p class="mr4 p1 hidden-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Voluptatibus quae alias, voluptas corrupti, sequi perspiciatis harum molestiae </p>
+                            <p class="mr4 p1 hidden-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Voluptatibus quae alias, voluptas corrupti, sequi perspiciatis harum </p>
                         </div>
-        
+
+                        <figure class="actividad__figure">
+                            <img class="actividad__image" src="img/tren-arganda.jpg" alt="Actividad">
+                        </figure>
+
+                    </div>
                 </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contacto" class="contact">
+
+        <div class="separador-seccion tc">
+            <h1 class="separador-seccion__title p4 i up">¿Cómo llegar?</h1>
+        </div>
+
+        <div class="container flex jc-space-between flex-wrap">
+
+            <div class="contact__form">
+
+                <form action="/" method="post" class="form">
+
+                    <div class="form__group">
+                        <input type="text" name="name" placeholder="Nombre" required class="form__input">
+                    </div>
+
+                    <div class="form__group">
+                        <input type="email" name="email" placeholder="ejemplo@ejemplo.es" required class="form__input">
+                    </div>
+
+                    <div class="form__group">
+                        <input type="text" name="subject" placeholder="Razón del mensaje" required class="form__input">
+                    </div>
+
+                    <div class="form__group">
+                        <label for="message" class="form__label">Mensaje</label>
+                        <textarea class="form__textarea" required name="message" id="message" cols="30"
+                            rows="10"></textarea>
+                    </div>
+
+                    <div class="form__group">
+                        <button type="submit" class="btn btn-default form__button">Enviar</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="contact__details">
+
+                <h4 class="contact__subtitle up my2">Dirección</h4>
+                <ul class="contact__list">
+                    <li>Rivas-Vaciamadrid (Madrid)</li>
+                    <li>28030</li>
+                    <li>Carretera A-3 (Km 21)</li>
+                </ul>
+
+                <h4 class="contact__subtitle up my2">¿Cómo llegar?</h4>
+                <ul class="contact__list">
+                    <li>Metro: Rivas-Vaciamadrid (Línea 9)</li>
+                    <li>Autobus: 334 (Desde la plaza de Conde de Casal)</li>
+                    <li>Carretera A-3 (Salida 19), dirección Valencia.</li>
+                    <li>Dispone de aparcamiento.</li>
+                </ul>
+
+
+            </div>
 
         </div>
 
@@ -225,11 +292,31 @@
         </div>
 
         <div class="footer__social flex aic jc-center">
-            <a href="#" class="footer__social-item m1 p1">&#10066;</a>
-            <a href="#" class="footer__social-item m1 p1">&#10086;</a>
-            <a href="#" class="footer__social-item m1 p1">&#10056;</a>
-            <a href="#" class="footer__social-item m1 p1">&#9992;</a>
-            <a href="#" class="footer__social-item m1 p1">&#9954;</a>
+            <a href="https://www.facebook.com/pages/La-Laguna-del-Campillo-Rivasvaciamadrid/311948368880307" class="footer__social-item m1 p1">
+                <svg class="footer__icon">
+                    <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                </svg>
+            </a>
+            <a href="https://twitter.com/search?q=lagunadelcampillo" class="footer__social-item m1 p1">
+                <svg class="footer__icon">
+                    <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                </svg>
+            </a>
+            <a href="https://github.com/antonrodin/laguna" class="footer__social-item m1 p1">
+                <svg class="footer__icon">
+                    <use xlink:href="img/sprite.svg#icon-github"></use>
+                </svg>
+            </a>
+            <a href="https://www.youtube.com/watch?v=PRPD_bZGVEk" class="footer__social-item m1 p1">
+                <svg class="footer__icon">
+                    <use xlink:href="img/sprite.svg#icon-youtube"></use>
+                </svg>
+            </a>
+            <a href="https://es.wikipedia.org/wiki/Laguna_del_Campillo" class="footer__social-item m1 p1">
+                <svg class="footer__icon">
+                    <use xlink:href="img/sprite.svg#icon-link"></use>
+                </svg>
+            </a>
         </div>
 
         <p class="footer__text tc">Pagina web realizada por motivos academicos con <span class="red">&#10084;</span> por

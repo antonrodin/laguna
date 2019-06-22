@@ -11,6 +11,10 @@
     --white:     #fff;
     --black:     #000;
     --red:       #ba0c0c;
+    --green:     #0cba0c;
+
+    /* Default font size */
+    --default-font-size: 1.6rem; 
 
     /* Anchura maxima del contenido */
     --width-desktop:    80rem; 

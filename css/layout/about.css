@@ -1,6 +1,4 @@
 .article {
-  margin: 10rem auto;
-  max-width: var(--width-desktop);
 }
 
 .article__title {
