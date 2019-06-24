@@ -3,6 +3,7 @@
     padding: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
+    background-color: transparent;
 }
 
 .btn:focus {
@@ -12,21 +13,22 @@
 /* White */
 .btn-white, .btn-white:link, .btn-white:visited {
     color: var(--white);
-    border: 1px solid var(--white);
+    border: 2px solid var(--white);
 }
 
 .btn-white, .btn-white:hover, .btn-white:active {
+    background-color: transparent;
     color: var(--white);
-    border: 1px solid var(--white);
+    border: 2px solid var(--white);
 }
 
 /* Default */
 .btn-default, .btn-default:link, .btn-white:default {
     color: var(--font-color);
-    border: 1px solid var(--font-color);
+    border: 2px solid var(--font-color);
 }
 
 .btn-default, .btn-default:hover, .btn-white:active {
     color: var(--font-color);
-    border: 1px solid var(--font-color);
+    border: 2px solid var(--font-color);
 }
