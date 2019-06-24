@@ -1,6 +1,7 @@
 # Laguna del Campillo Project
 
 La practica final del pre-curso de bootcamp de Neoland...
+Se puede ver aquí: https://antonrodin.github.io/laguna/
 
 ## Usa un poco de todo de esto:
 
@@ -8,7 +9,7 @@ La practica final del pre-curso de bootcamp de Neoland...
 * Metodología BEM
 * BASSCSS Margins & Paddings
 * Basic flex grid
-* Variables propias de CSS
+* Variables propias de CSS (No funcionan en iExplorer, si a partir del Edge)
 * y probablemente alguna otra historia...
 
 Ningún derecho reservado... Aunque las fotos son mias del paseo por la Laguna del Campillo.
